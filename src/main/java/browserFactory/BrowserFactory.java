@@ -25,10 +25,11 @@ public class BrowserFactory {
  */
 		if(browserName.contains("Chrome") || browserName.contains("GC") || browserName.contains("Google Chrome"))
 		{
-			ChromeOptions opt =new ChromeOptions();
-			opt.addArguments("--headless");
-			opt.addArguments("--no-sandbox");
-			driver = new ChromeDriver(opt);
+		  //	ChromeOptions opt =new ChromeOptions();
+		  //	opt.addArguments("--headless");
+		 //	opt.addArguments("--no-sandbox");
+		 //	driver = new ChromeDriver(opt);
+			driver = new ChromeDriver();
 			
 		}
 		else if(browserName.contains("Edge"))
