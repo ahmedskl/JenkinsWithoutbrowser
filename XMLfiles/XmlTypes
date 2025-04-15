@@ -340,6 +340,9 @@ Q)Difference b/w @FindBy, @FindBys, @FindAll.
   		pass-google stop supporting direct pass,u will be using generated passcode.
   		port-465
   		
+  		yahoo smtp
+  		email server
+  		
   	For sending emails u need smtp server,for this we will be using google smtp server which my google account,or we can
   	use yahoo smtp server or rediff mail too, u can take any of e-mail server which use smtp server(simple mail transfer protocal).	
   	which only responsible to send emails and recieve emails.
