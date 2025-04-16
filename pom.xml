@@ -9,7 +9,7 @@
 	<dependency>
 	    <groupId>org.seleniumhq.selenium</groupId>
 	    <artifactId>selenium-java</artifactId>
-	    <version>4.31.0</version>
+	    <version>4.13.0</version>
 	    <!-- For selenium-java 3.141.59 jars then java.lang.IllegalStateException: 
  			The path to the driver executable must be set by the webdriver.chrome.driver system property.-->
 	</dependency>
