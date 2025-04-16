@@ -29,7 +29,15 @@ public class BrowserFactory {
 			//	opt.addArguments("--headless");
 			//	opt.addArguments("--no-sandbox");
 			//	driver = new ChromeDriver(opt);
-			driver = new ChromeDriver();
+			//driver = new ChromeDriver();
+
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless=new"); // Modern headless mode
+				options.addArguments("--disable-gpu");
+				options.addArguments("--window-size=1920,1080");
+
+				WebDriver driver = new ChromeDriver(options);
+
 
 		}
 		else if(browserName.contains("Edge"))
